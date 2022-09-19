@@ -8,11 +8,11 @@ def main():
 
     # input asking for day
 
-    day = input("Okay, " + name + ".  What day is it today?")
+    day = input(f"Okay, {name}. What day is it today?")
 
     # print statement
 
-    print("Hello, " + name + "! Happy " + day + "!")
+    print(f"Hello, {name}! Happy {day}!")
 
 
 main()
