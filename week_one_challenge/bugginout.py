@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+"""Repo Link: https://github.com/JasonTrespel/Python/blob/master/challenges/week1_bustedcode_alt.md """
+
 # fixed: added 3 to python at the end of shebang line
 
 # ~~~~ Import Statements ~~~~
