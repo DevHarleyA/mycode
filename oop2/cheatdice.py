@@ -6,6 +6,7 @@
 from random import randint
 
 class Player:
+    """Defines the Player class for the players in the game."""
     def __init__(self):
         self.dice = []
 
@@ -24,10 +25,9 @@ class Cheat_Swapper(Player):  # inheritance of Player
 
 # allows user to increase all rolls if they were less than a 6
 class Cheat_Loaded_Dice(Player): # inheritance of Player
-  def cheat(self):
-      i = 0
-      while i < len(self.dice):
-          if self.dice[i] < 6:
-              self.dice[i] += 1
-          i += 1
-
+    def cheat(self):
+        i = 0
+        while i < len(self.dice):
+            if self.dice[i] < 6:
+                self.dice[i] += 1
+            i += 1
